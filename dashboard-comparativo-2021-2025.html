@@ -600,11 +600,11 @@ body {
     <div>
       <div class="header-tag">Análise comparativa · mercado brasileiro</div>
       <h1 class="header-title">Alimentos <em>Orgânicos</em><br>&amp; Biodinâmicos</h1>
-      <p class="header-desc">Dashboard executivo comparando as pesquisas de percepção de 2021–2022 e 2025 — evolução do mercado, mudanças de comportamento e oportunidades estratégicas.</p>
+      <p class="header-desc">Painel interativo executivo comparando as pesquisas de percepção de 2022 e 2025 — evolução do mercado, mudanças de comportamento e oportunidades estratégicas.</p>
     </div>
     <div class="header-stats">
       <div class="hstat">
-        <div class="hstat-year">2021–22</div>
+        <div class="hstat-year">2022</div>
         <div class="hstat-val">463</div>
         <div class="hstat-lbl">respondentes</div>
       </div>
@@ -810,7 +810,7 @@ body {
     <div class="card">
       <div class="card-title">Frequência de consumo — Orgânicos (comparativo)</div>
       <div class="legend">
-        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2021–22</div>
+        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2022</div>
         <div class="leg-item"><span class="leg-sq" style="background:var(--g800)"></span>2025</div>
       </div>
       <div class="ch280"><canvas id="c2freq"></canvas></div>
@@ -819,7 +819,7 @@ body {
     <div class="card">
       <div class="card-title">Tempo de consumo (anos)</div>
       <div class="legend">
-        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2021–22</div>
+        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2022</div>
         <div class="leg-item"><span class="leg-sq" style="background:var(--g800)"></span>2025</div>
       </div>
       <div class="ch280"><canvas id="c2tempo"></canvas></div>
@@ -901,7 +901,7 @@ body {
     <div class="card">
       <div class="card-title">Gênero — comparativo</div>
       <div class="legend">
-        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2021–22</div>
+        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2022</div>
         <div class="leg-item"><span class="leg-sq" style="background:var(--g800)"></span>2025</div>
       </div>
       <div class="ch240"><canvas id="c3gen"></canvas></div>
@@ -917,7 +917,7 @@ body {
     <div class="card">
       <div class="card-title">Escolaridade — comparativo (% de cada grupo)</div>
       <div class="legend">
-        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2021–22</div>
+        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2022</div>
         <div class="leg-item"><span class="leg-sq" style="background:var(--g800)"></span>2025</div>
       </div>
       <div class="ch280"><canvas id="c3edu"></canvas></div>
@@ -979,7 +979,7 @@ body {
     <div class="card">
       <div class="card-title">Percepção de preço — orgânicos (2021 vs 2025)</div>
       <div class="legend">
-        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2021–22</div>
+        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2022</div>
         <div class="leg-item"><span class="leg-sq" style="background:var(--g800)"></span>2025</div>
       </div>
       <div class="ch280"><canvas id="c4preco"></canvas></div>
@@ -990,7 +990,7 @@ body {
         <div style="display:flex;gap:32px;align-items:flex-end">
           <div style="text-align:center">
             <div style="font-family:'DM Serif Display',serif;font-size:60px;color:var(--am400);line-height:1">30%</div>
-            <div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink4);margin-top:4px">2021–22</div>
+            <div style="font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink4);margin-top:4px">2022</div>
           </div>
           <div style="font-size:36px;color:var(--ink4);padding-bottom:12px">→</div>
           <div style="text-align:center">
@@ -1060,7 +1060,7 @@ body {
     <div class="card">
       <div class="card-title">Barreiras para não consumir biodinâmicos (quem só consome orgânicos)</div>
       <div class="legend">
-        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2021–22</div>
+        <div class="leg-item"><span class="leg-sq" style="background:var(--te400)"></span>2022</div>
         <div class="leg-item"><span class="leg-sq" style="background:var(--am400)"></span>2025</div>
       </div>
       <div class="ch280"><canvas id="c5bar"></canvas></div>
@@ -1262,7 +1262,7 @@ body {
 </main>
 
 <footer class="site-footer">
-  <p>Dashboard elaborado com base nas pesquisas de percepção de 2021–2022 (463 respondentes) e 2025 (202 respondentes)<br>
+  <p>Painel interativo elaborado com base nas pesquisas de percepção de 2022 (463 respondentes) e 2025 (202 respondentes)<br>
   sobre alimentos orgânicos e biodinâmicos · Dados tratados para apresentação executiva · Chart.js</p>
 </footer>
 
@@ -1306,7 +1306,7 @@ new Chart('c1evo', { type: 'bar',
   data: {
     labels: ['Org. + Biodinâmicos', 'Só Orgânicos', 'Não consome'],
     datasets: [
-      { label: '2021–22', data: [52.7, 36.1, 8.9], backgroundColor: TE, ...r6 },
+      { label: '2022', data: [52.7, 36.1, 8.9], backgroundColor: TE, ...r6 },
       { label: '2025',    data: [51,   40,   7],   backgroundColor: G,  ...r6 }
     ]
   },
@@ -1333,7 +1333,7 @@ new Chart('c2freq', { type: 'bar',
   data: {
     labels: ['3x+/semana', '2x/semana', '1x/semana', 'Quinzenal', 'Mensal'],
     datasets: [
-      { label: '2021–22', data: [26, 24, 53, 10, 5], backgroundColor: TE, ...r6 },
+      { label: '2022', data: [26, 24, 53, 10, 5], backgroundColor: TE, ...r6 },
       { label: '2025',    data: [38, 24, 24,  8, 6], backgroundColor: G,  ...r6 }
     ]
   },
@@ -1346,7 +1346,7 @@ new Chart('c2tempo', { type: 'bar',
   data: {
     labels: ['< 1 ano', '1–2 anos', '2–5 anos', '> 5 anos'],
     datasets: [
-      { label: '2021–22', data: [6, 9, 15, 38], backgroundColor: TE, ...r6 },
+      { label: '2022', data: [6, 9, 15, 38], backgroundColor: TE, ...r6 },
       { label: '2025',    data: [8, 14, 31, 47], backgroundColor: G,  ...r6 }
     ]
   },
@@ -1385,7 +1385,7 @@ new Chart('c3gen', { type: 'bar',
   data: {
     labels: ['Feminino', 'Masculino', 'Outro/NR'],
     datasets: [
-      { label: '2021–22', data: [71.3, 28.1, 0.6], backgroundColor: TE, ...r6 },
+      { label: '2022', data: [71.3, 28.1, 0.6], backgroundColor: TE, ...r6 },
       { label: '2025',    data: [66,   30,   4],   backgroundColor: G,  ...r6 }
     ]
   },
@@ -1407,7 +1407,7 @@ new Chart('c3edu', { type: 'bar',
   data: {
     labels: ['Ens. Médio', 'Sup. Incompl.', 'Sup. Completo', 'Especializ.', 'Mestrado', 'Doutorado', 'Pós-Doc'],
     datasets: [
-      { label: '2021–22', data: [5, 9, 56, 0, 21, 6, 2],  backgroundColor: TE, ...r6 },
+      { label: '2022', data: [5, 9, 56, 0, 21, 6, 2],  backgroundColor: TE, ...r6 },
       { label: '2025',    data: [4, 9, 26, 15, 21, 14, 12], backgroundColor: G, ...r6 }
     ]
   },
@@ -1429,7 +1429,7 @@ new Chart('c4preco', { type: 'bar',
   data: {
     labels: ['Preços justos', 'Poderiam ser menores', 'Preços elevados', 'Não sei opinar'],
     datasets: [
-      { label: '2021–22', data: [36, 31, 27, 4], backgroundColor: TE, ...r6 },
+      { label: '2022', data: [36, 31, 27, 4], backgroundColor: TE, ...r6 },
       { label: '2025',    data: [32, 40, 12, 6], backgroundColor: G,  ...r6 }
     ]
   },
@@ -1517,7 +1517,7 @@ new Chart('c5bar', { type: 'bar',
   data: {
     labels: ['Falta acesso/opção', 'Preço', 'Desconhecimento', 'Sem diferença percebida'],
     datasets: [
-      { label: '2021–22', data: [70, 13, 21,  4], backgroundColor: TE, ...r6 },
+      { label: '2022', data: [70, 13, 21,  4], backgroundColor: TE, ...r6 },
       { label: '2025',    data: [58, 28, 22, 12], backgroundColor: AM, ...r6 }
     ]
   },
@@ -1585,7 +1585,7 @@ new Chart('c7radar', { type: 'radar',
   data: {
     labels: ['Adoção', 'Frequência', 'Fidelização', 'Certificação', 'Conhecim. Bio.', 'Preço ok'],
     datasets: [
-      { label: '2021–22 Orgânicos',   data: [89, 65, 38, 78, 55, 64], borderColor: TE, backgroundColor: 'rgba(29,158,117,0.12)', pointBackgroundColor: TE },
+      { label: '2022 Orgânicos',   data: [89, 65, 38, 78, 55, 64], borderColor: TE, backgroundColor: 'rgba(29,158,117,0.12)', pointBackgroundColor: TE },
       { label: '2025 Orgânicos',      data: [91, 75, 47, 82, 60, 60], borderColor: G,  backgroundColor: 'rgba(45,90,10,0.12)',    pointBackgroundColor: G  },
       { label: '2025 Biodinâmicos',   data: [51, 45, 40, 66, 38, 56], borderColor: AM, backgroundColor: 'rgba(230,160,32,0.1)',   pointBackgroundColor: AM },
     ]
